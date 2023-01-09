@@ -28,8 +28,9 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
+    margin-left: -50px;
 }
 nav ul li{
     display: inline-block;
@@ -83,9 +84,9 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 82%;
+    width: 72%;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -334,7 +335,7 @@ nav .fas{
         font-size: 20px;
         margin-left: 10px;
         text-align: center;
-        margin-top: 350px;
+        margin-top: 380px;
     }
     .header-text h1{
         font-size: 30px;
@@ -373,10 +374,12 @@ nav .fas{
     }
     .about-col-1{
         margin-bottom: 30px;
+        
     }
     .about-col-2 h1{
         font-size: 40px;
         text-align: center;
+        
     }
     .tab-links{
         font-size: 16px;
@@ -395,10 +398,14 @@ nav .fas{
     }
     .sub-title{
         text-align: center;
-        margin-top: -30px;
+        margin-top: -70px;
     }
     .tab-links{
            font-size: 20px;
+    }
+    .about-col-1 img{
+        margin-left: 30px;
+        width: 80%;
     }
 }
 #msg{
