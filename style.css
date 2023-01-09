@@ -58,10 +58,12 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    margin-left: -50px;
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+   
 }
 .header-text h1 span{
     color: red;
@@ -83,7 +85,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 82%;
     border-radius: 15px;
-    margin-top: -20px;
+    margin-top: 10px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -321,7 +323,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/wall3.jpg);
     }
     .logo{
         width: 200px;
@@ -329,7 +331,9 @@ nav .fas{
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
     }
     .header-text h1{
         font-size: 30px;
@@ -369,8 +373,9 @@ nav .fas{
     .about-col-1{
         margin-bottom: 30px;
     }
-    .about-col-2{
-        font-size: 14px;
+    .about-col-2 h1{
+        font-size: 40px;
+        text-align: center;
     }
     .tab-links{
         font-size: 16px;
@@ -381,6 +386,18 @@ nav .fas{
     }
     .copyright{
         font-size: 16px;
+    }
+    .about-col-1 img{
+        margin-top: -90px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .sub-title{
+        text-align: center;
+        margin-top: -30px;
+    }
+    .tab-links{
+           font-size: 20px;
     }
 }
 #msg{
